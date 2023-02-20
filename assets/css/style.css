@@ -1,0 +1,159 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecera{
+    text-align: center;
+    width: 100%;
+    margin-top: 10%;
+
+}
+
+h1{
+    color: #686568
+}
+
+.cabecera p{
+    margin-top: 7%;
+
+}
+
+hr{
+    width: 60% ;
+    margin: auto;
+}
+
+.principal-1{
+    background-color: #1F5AE5;
+    margin: auto; 
+    width: 90%; 
+    margin-top: 15%; 
+    padding-top: 5%;
+    padding-bottom: 5%; 
+    } 
+
+.principal-1-img{ 
+     width: 100%;
+    text-align: center;
+    }
+
+.principal-1-img img{ 
+     width: 80%; 
+    }
+
+.principal-1-text{
+     width: 100%; 
+     text-align: center;
+      margin-top: 6%; 
+    }
+
+
+.principal-1-text p{ 
+    margin-top: 6%; 
+} 
+
+.principal-2{ 
+    background-color: #E7545B; 
+    margin: auto; 
+    width: 90%; 
+    margin-top: 15%; 
+    padding-top: 5%;
+    padding-bottom: 5%; 
+    } 
+
+.principal-2-img{ 
+     width: 100%;
+    text-align: center;
+    }
+
+.principal-2-img img{ 
+     width: 80%; 
+    }
+
+.principal-2-text{
+     width: 100%; 
+     text-align: center;
+      margin-top: 6%; 
+    }
+
+
+.principal-2-text p{ 
+    margin-top: 6%; 
+} 
+
+.principal-3{ 
+    background-color: #500E52;
+    margin: auto;
+    width: 90%;
+    margin-top: 15%; 
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+     
+.principal-3-img{ 
+   width: 100%; 
+   text-align: center;
+ } 
+ 
+.principal-3-img img{ 
+    width: 80%; 
+} 
+
+.principal-3-text{ 
+    width: 100%; text-align: center;
+}
+
+.principal-4{ 
+    background-color: #EEF0F0; margin: auto;
+     width: 90%; 
+     margin-top: 15%;
+      margin-bottom: 15%; padding-top: 5%; padding-bottom: 5%;
+       text-align: center;
+     } 
+     .item{ 
+        width: 70%; 
+        margin: auto; 
+        padding: 6% 
+    } 
+    .p{ 
+        padding: 8%; 
+    }
+
+    @media(min-width:1200px) { 
+        .principal-1, 
+        .principal-2, 
+        .principal-3{ 
+            
+        width: 25%;
+        display: inline-block; 
+        margin-top: 7%;
+     } 
+     main{ 
+        text-align: center;
+     } 
+     .item{
+        float: left; 
+        width: 20%; 
+        margin-bottom: 3%;
+        
+    } 
+    .principal-4{
+        margin-top: 4%;
+    
+        } 
+    .p{ 
+        padding: 5%;
+     } 
+     
+    hr{ 
+        width: 15%; 
+        margin: auto;
+     } 
+     
+    h1, h2{ 
+        font-size: xx-large; 
+    }
+ }
